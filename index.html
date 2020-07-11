@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    
+    <div class="Stopwatch">
+        
+        <p>“ Lost time is never found again ”</p>
+        <div class="time">
+            <div>
+            <h2 id="hours">00</h2>
+            <h2 class="m"> :</h2>
+            <h2 id="min">00</h2>
+           
+            <h2 class="m"> :</h2>
+            <h2 id="sec">00</h2>
+            <h2 class="m"> :</h2>
+            <h2 id="msec">00</h2>
+
+            </div>
+            <div class="h">
+            <p>HOURS</p>  
+            <p>MIN</p>
+            <p>SEC</p>
+            <p>MSEC</p>
+
+
+            </div>
+            
+        </div>
+        
+     
+        
+        <button  id ="h11" type="button"  onclick="start()" ><i class="fa fa-play" style="font-size:18px;"></i></button>
+        <button onclick="stop()"><i class="fa fa-pause" style="font-size:18px"></i></button>
+        <button onclick="reset()"><i class="fa fa-refresh" style="font-size:18px"></i></button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
